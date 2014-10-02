@@ -172,8 +172,8 @@ at the same time, this create a very robust communication channel:
 ```javascript
 var Queue = require('bull');
 
-// Fro both of the servers, we will use sendQueue for sending and receiveQueue for
-// receiving. We will  use different queue names for the sending and receiving 
+// From both of the servers, we will use sendQueue for sending and receiveQueue for
+// receiving. We will use different queue names for the sending and receiving 
 // on two different servers
 
 // Server A:
